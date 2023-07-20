@@ -15,6 +15,8 @@ public class rc_Subseq {
         
         SubSeq(p+ch, up.substring(1));
         SubSeq(p, up.substring(1)); 
+        
     }
+
 }
 
