@@ -1,6 +1,6 @@
 public class rc_Subseq {
     public static void main(String[] args) {
-        String str= "abc";
+        String str= "123 ";
         SubSeq("",str); 
     }
     public static  void SubSeq(String p , String up)
