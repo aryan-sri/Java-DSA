@@ -8,24 +8,13 @@ class Anagram
     }
     public static boolean isAnagram(String S , String S2) {
         
-        if(S.length() == S2.length())
-        {
-            for(int i =0;i<S.length();i++)
-            {
-                char c = S.charAt(i);
-                if(S2.indexOf(c) == -1)
-                {
-                    return false;
+       char[] ch = S.toCharArray();
+       char[] ch2 = S2.toCharArray();
 
-                }
-            }
-            return true;
+       Arrays.sort(ch);
+       Arrays.sort(ch2);
 
-        }
-        
-        else{
-            return false;
-        }
+       
        
 
     }
